@@ -1,0 +1,67 @@
+/* ===== Global Styles ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f6f2ee; /* warm cream */
+  color: #3b3b3b;
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #e9dcd1; /* soft Frenchie beige */
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 4px solid #c9b8aa;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+header p {
+  margin-top: 8px;
+  font-size: 1.1rem;
+  color: #5f5f5f;
+}
+
+/* ===== Blog Posts ===== */
+article {
+  background-color: #ffffff;
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  border-radius: 18px; /* Frenchie soft curves */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+article h2 {
+  margin-top: 0;
+  color: #7a4a2e; /* warm brown */
+  font-size: 1.6rem;
+}
+
+article p {
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+/* ===== Hover effect ===== */
+article:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease;
+}
+
+/* ===== Mobile Friendly ===== */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  article {
+    margin: 20px 15px;
+    padding: 20px;
+  }
+}
